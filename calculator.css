@@ -13,6 +13,32 @@ display:flex;
 flex-direction: row;
 
 }
+.non-num{
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    padding: 16px;
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+
+}
+.sign{
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    padding: 16px;
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+
+}
 .num{
     border-style: solid;
 border-width: 1px;
@@ -23,10 +49,17 @@ width: 40px;
 height: 40px;
 display: flex;
 justify-content: center;
+cursor: pointer;
+
+}
+.non-num:hover{
+    background-color: lightseagreen;
+}
+.sign:hover{
+    background-color: lightseagreen;
 }
 .num:hover{
-    cursor: pointer;
-    background-color: brown;
+    background-color: lightseagreen;
 }
 
 .result-div{
@@ -36,5 +69,6 @@ border-width: 1px;
 border-color: black;
 color: black;
 font-size: 24px;
+height: 60px;
 
 }
